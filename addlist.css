@@ -3,8 +3,64 @@
 	padding: 0;
 	box-sizing: border-box;
 }
-.plates{
-	height: 40vh;
-	width: 200px;
-	overflow-y:scroll
+.container{
+	height: 80vh;
+	width: 300px;
+	background-color: blue;
+	margin-left: 500px;
+	margin-top: 30px;
+	border: 2px solid tan;
+	border-radius: 15px;
 }
+
+body{
+	background: linear-gradient(90deg,purple,green);
+	color: white;
+	text-align:center;
+
+}
+.wrapper{
+	height: 60vh;
+}
+.plates{
+	list-style: none;
+	width: 300px;
+	margin-top: 20px;
+	padding: 10px 20px;
+	height: 55vh;
+	background-color:rgb(250, 178, 70);
+	overflow: auto;
+	text-align: left;
+	
+}
+
+.input-box{
+	width: 290px;
+	height: 30px;
+	margin-top: 20px;
+	border-radius: 20px;
+	padding: 4px 10px;
+	font-size: 20px;
+	border: 2px solid skyblue;
+	box-shadow: 2px -2px 2px 2px black;
+	
+}
+.button{
+	color: white;
+	background-color: maroon;
+	padding: 4px 10px;
+	font-size: 15px;
+	border: 2px solid maroon;
+	border-radius:20px;
+	margin-top: 20px;
+	
+}
+.button:hover{
+	color: maroon;
+	background-color: white;
+}
+
+
+
+
+
